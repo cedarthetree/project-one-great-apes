@@ -11,7 +11,13 @@ body {
 }
 
 h1 {
-	color: white;
+	color: #FF9064;
+	font-family: poleno, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 72pt;
+	text-align: center;
+	padding-top: 20px;
 }
 
 nav{
@@ -23,6 +29,7 @@ nav{
 /* Dropdown Button */
 .dropbtn {
   background-color: transparent;
+  color: white;
   border: none;
   cursor: pointer;
 }
@@ -65,8 +72,8 @@ nav{
 .show {display:block;}
 
 section {
-	padding-top: 200px;
-	padding-left: 300px;
+	padding-top: 80px;
+	padding-left: 500px;
 }
 
 .column {
