@@ -4,15 +4,15 @@ body {
 }
 
 .home {
-	background-image: url ('background.jpg');
+	background-image: url ('/images/background.jpg');
 	background-height: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 
 header h1,header nav {
-    display:inline-block;
-    vertical-align:middle;
+    display: inline-block;
+    vertical-align: middle;
  }
 
 h1 {
@@ -23,7 +23,8 @@ h1 {
 	font-size: 72pt;
 	text-align: center;
 	margin-top: 20px;
-	margin-left: 200px;
+	margin-left: 190px;
+	margin-right: auto;
 }
 
 nav{
@@ -90,12 +91,26 @@ main.illustration {
 
 .bonobo {
 	position: absolute;
-	left: 0px;
+	left: 795px;
+	top: 895px;
 }
 
 .chimpanzee {
 	position: absolute;
-	left: 0px;
+	left: 510px;
+	top: 1180px;
+}
+
+.orangutan{
+	position: absolute;
+	left: 480px;
+	top: 430px;
+}
+
+.gorilla{
+	position: absolute;
+	left: 870px;
+	top: 1730px;
 }
 
 section {
