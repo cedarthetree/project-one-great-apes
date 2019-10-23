@@ -3,13 +3,6 @@ body {
 	background-color: #262649;
 }
 
-.home {
-	background-image: url('/images/background.jpg');
-	background-height: 100%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
-
 header h1,header nav {
     display: inline-block;
     vertical-align: middle;
@@ -112,16 +105,37 @@ main.illustration {
 	top: 1180px;
 }
 
-.orangutan{
+.chimpanzee:hover {
+	position:absolute;
+	left: 510px;
+	top: 1180px;
+	display: none;
+}
+
+.orangutan {
 	position: absolute;
 	left: 480px;
 	top: 430px;
+}
+
+.orangutan:hover {
+	position: absolute;
+	left: 480px;
+	top: 430px;
+	display: none;
 }
 
 .gorilla{
 	position: absolute;
 	left: 870px;
 	top: 1730px;
+}
+
+.gorilla:hover {
+	position: absolute;
+	left: 870px;
+	top: 1730px;
+	display: none;
 }
 
 section {
