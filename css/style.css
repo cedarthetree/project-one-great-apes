@@ -3,6 +3,10 @@ body {
 	background-color: #262649;
 }
 
+body.grad {
+	background-image: url('/images/background.jpg')
+}
+
 header h1,header nav {
     display: inline-block;
     vertical-align: middle;
