@@ -161,3 +161,91 @@ p {
 	font-size: 12pt;
 	line-height: 20px
 }
+
+/* leaf animations!!! */
+
+img.leaf1 {
+	position: absolute;
+	animation-name: leaf1;
+	animation-duration: 4s;
+	/*animation-play-state: paused;*/
+}
+
+img.leaf2 {
+	transform: rotate(45deg);
+	position: absolute;
+	animation-name: leaf2;
+	animation-duration: 5s;
+	/*animation-play-state: paused;*/
+}
+
+img.leaf3 {
+	transform: rotate(-60deg);
+	position: absolute;
+	animation-name: leaf3;
+	animation-duration: 3s;
+	/*animation-play-state: paused;*/
+}
+
+img.leaf4 {
+	transform: rotate(90deg);
+	position: absolute;
+	animation-name: leaf4;
+	animation-duration: 4s;
+	/*animation-play-state: paused;*/
+}
+
+@keyframes leaf1 {
+  from {
+  	left: 600px;
+  	top: 680px;
+  }
+  to {
+  	left: 600px;
+	top: 1000px;
+}
+}
+
+@keyframes leaf2 {
+  from {
+  	left: 580px;
+  	top: 670px;
+  }
+  to {
+  	left: 560px;
+	top: 1000px;
+}
+}
+
+@keyframes leaf3 {
+  from {
+  	left: 610px;
+  	top: 675px;
+  }
+  to {
+  	left: 630px;
+	top: 1000px;
+}
+}
+
+@keyframes leaf4 {
+  from {
+  	left: 600px;
+  	top: 675px;
+  }
+  to {
+  	left: 570px;
+	top: 1000px;
+}
+}
+
+@keyframes leaf5 {
+  from {
+  	left: 610px;
+  	top: 675px;
+  }
+  to {
+  	left: 630px;
+	top: 1000px;
+}
+}
