@@ -4,7 +4,19 @@ body {
 }
 
 body.grad {
-	background-image: url('/images/background.jpg')
+margin: 0;
+width: 100%;
+height: 100vh;
+background: linear-gradient(0deg, #ffb000, #700695, #262649);
+background-size: 600% 600%;
+background-repeat: no-repeat;
+animation: homebg 30s ease infinite;
+}
+
+@keyframes homebg {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
 }
 
 header h1,header nav {
