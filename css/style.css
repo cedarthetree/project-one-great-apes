@@ -15,9 +15,9 @@ animation: homebg 30s ease infinite;
 }
 
 @keyframes homebg {
-    0%{background-position:50% 0%}
-    50%{background-position:50% 100%}
-    100%{background-position:50% 0%}
+    0% {background-position:50% 0%}
+    50% {background-position:50% 100%}
+    100% {background-position:50% 0%}
 }
 
 header h1,header nav {
@@ -33,11 +33,26 @@ h1 {
 	font-size: 72pt;
 	text-align: center;
 	margin-top: 20px;
-	margin-left: 190px;
+	margin-left: 170px;
 	margin-right: auto;
 }
 
-nav{
+h1:hover {
+	animation-name: headerhover;
+	animation-duration: linear 4s;
+	animation-iteration-count: 1;
+}
+
+@keyframes headerhover {
+	0%, 50%, 100% {
+		padding-top: 0;
+	}
+	25%, 75% {
+		padding-top: 20px;
+	}
+}
+
+nav {
 	font-family: benton-sans, sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -201,6 +216,14 @@ img.leaf3 {
 }
 
 img.leaf4 {
+	transform: rotate(25deg);
+	position: absolute;
+	animation-name: leaf5;
+	animation-duration: 6s;
+	/*animation-play-state: paused;*/
+}
+
+img.leaf5 {
 	transform: rotate(90deg);
 	position: absolute;
 	animation-name: leaf4;
@@ -254,11 +277,11 @@ img.leaf4 {
 
 @keyframes leaf5 {
   from {
-  	left: 610px;
+  	left: 595px;
   	top: 675px;
   }
   to {
-  	left: 630px;
+  	left: 650px;
 	top: 1000px;
 }
 }
