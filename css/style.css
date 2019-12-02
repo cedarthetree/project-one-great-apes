@@ -52,6 +52,14 @@ h1:hover {
 	}
 }
 
+h2 {
+	color: #fff;
+	font-family: poleno, sans-serif;
+	font-style: normal;
+	font-size: 40pt;
+	margin-bottom: 10px;
+}
+
 nav {
 	font-family: benton-sans, sans-serif;
 	font-weight: 400;
@@ -172,12 +180,12 @@ main.illustration {
 
 section {
 	padding-top: 80px;
-	padding-left: 500px;
+	padding-left: 50px;
 }
 
 .column {
 	float: left;
-	width: 40%;
+	width: 30%;
 }
 
 p {
@@ -186,9 +194,31 @@ p {
 	font-family: benton-sans, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 12pt;
-	line-height: 20px
+	font-size: 11pt;
+	line-height: 18px
 }
+
+img.chimpmap,img.orangmap,img.bonomap,img.gorilmap {
+	margin-top: 70px;
+}
+
+img.orangmap {
+	position: relative;
+	display: inline-block;
+}
+
+img.img-top:hover {
+	display: inline;
+}
+
+img.orangmap .img-top {
+	display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
 
 /* leaf animations!!! */
 
