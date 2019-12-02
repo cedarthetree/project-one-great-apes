@@ -9,10 +9,16 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://use.typekit.net/zub7ddt.css">
-	<link rel="stylesheet" href="https://use.typekit.net/zub7ddt.css">
-	<script src="myscripts.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  	<script src="js/script.js"></script>
+<!-- 	<script src="myscripts.js"></script>
+ -->	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		$('.orangutan-link').mouseover(function() {
+$('.leaf1').css('animation-play-state','running')
+$('.leaf2').css('animation-play-state','running')
+$('.leaf3').css('animation-play-state','running')
+});
+
+	</script>
 </head>
 <body class="grad">
 	<header>
@@ -35,7 +41,7 @@
 	<main class="illustration">
 	<img class="tree" src="./images/tree.png" alt="tree">
 	<div class="orang-box">
-		<a href="orangutan.html"><img class="orangutan img-hover" src="images/orangutan_hover.png"></a>
+		<a href="orangutan.html" class="orangutan-link"><img class="orangutan img-hover" src="images/orangutan_hover.png"></a>
 		<a href="orangutan.html"><img class="orangutan" src="images/orangutan_outline.png" alt="orangutan"></a>
 	</div>
 	<div class="leaves">
@@ -63,5 +69,6 @@
 		<a href="gorilla.html"><img class="gorilla" src="images/gorilla_outline.png" alt="gorilla"></a>
 	</div>
 	</main>
+
 </body>
 </html>

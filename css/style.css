@@ -185,7 +185,7 @@ section {
 
 .column {
 	float: left;
-	width: 30%;
+	width: 33%;
 }
 
 p {
@@ -198,21 +198,18 @@ p {
 	line-height: 18px
 }
 
-img.chimpmap,img.orangmap,img.bonomap,img.gorilmap {
+.orangmap,.gorilmap,.bonomap,.chimpmap {
+	position: relative;
+	display: inline-block;
 	margin-top: 70px;
 }
 
-img.orangmap {
-	position: relative;
-	display: inline-block;
-}
-
-img.img-top:hover {
-	display: inline;
-}
-
-img.orangmap .img-top {
+.img-top {
 	display: none;
+}
+
+.orangmap:hover .img-top,.chimpmap:hover .img-top,.bonomap:hover .img-top,.gorilmap:hover .img-top {
+	display: inline;
     position: absolute;
     top: 0;
     left: 0;
@@ -226,7 +223,7 @@ img.leaf1 {
 	position: absolute;
 	animation-name: leaf1;
 	animation-duration: 4s;
-	/*animation-play-state: paused;*/
+	animation-play-state: paused;
 }
 
 img.leaf2 {
@@ -234,7 +231,7 @@ img.leaf2 {
 	position: absolute;
 	animation-name: leaf2;
 	animation-duration: 5s;
-	/*animation-play-state: paused;*/
+	animation-play-state: paused;
 }
 
 img.leaf3 {
@@ -242,7 +239,7 @@ img.leaf3 {
 	position: absolute;
 	animation-name: leaf3;
 	animation-duration: 3s;
-	/*animation-play-state: paused;*/
+	animation-play-state: paused;
 }
 
 img.leaf4 {
@@ -250,7 +247,7 @@ img.leaf4 {
 	position: absolute;
 	animation-name: leaf5;
 	animation-duration: 6s;
-	/*animation-play-state: paused;*/
+	animation-play-state: paused;
 }
 
 img.leaf5 {
@@ -258,7 +255,7 @@ img.leaf5 {
 	position: absolute;
 	animation-name: leaf4;
 	animation-duration: 4s;
-	/*animation-play-state: paused;*/
+	animation-play-state: paused;
 }
 
 @keyframes leaf1 {
