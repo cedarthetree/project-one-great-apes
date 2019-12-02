@@ -220,6 +220,8 @@ p {
 /* leaf animations!!! */
 
 img.leaf1 {
+	left: 600px;
+  	top: 650px;
 	position: absolute;
 	animation-name: leaf1;
 	animation-duration: 4s;
@@ -227,6 +229,8 @@ img.leaf1 {
 }
 
 img.leaf2 {
+	left: 580px;
+  	top: 640px;
 	transform: rotate(45deg);
 	position: absolute;
 	animation-name: leaf2;
@@ -235,6 +239,8 @@ img.leaf2 {
 }
 
 img.leaf3 {
+	left: 610px;
+  	top: 645px;
 	transform: rotate(-60deg);
 	position: absolute;
 	animation-name: leaf3;
@@ -243,6 +249,8 @@ img.leaf3 {
 }
 
 img.leaf4 {
+	left: 600px;
+  	top: 645px;
 	transform: rotate(25deg);
 	position: absolute;
 	animation-name: leaf5;
@@ -251,17 +259,39 @@ img.leaf4 {
 }
 
 img.leaf5 {
+	left: 595px;
+  	top: 645px;
 	transform: rotate(90deg);
 	position: absolute;
 	animation-name: leaf4;
-	animation-duration: 4s;
+	animation-duration: 4.5s;
+	animation-play-state: paused;
+}
+
+img.leaf6 {
+	left: 615px;
+  	top: 645px;
+	transform: rotate(-90deg);
+	position: absolute;
+	animation-name: leaf6;
+	animation-duration: 5.5s;
+	animation-play-state: paused;
+}
+
+img.leaf7 {
+	left: 605px;
+  	top: 645px;
+	transform: rotate(55deg);
+	position: absolute;
+	animation-name: leaf7;
+	animation-duration: 3.5s;
 	animation-play-state: paused;
 }
 
 @keyframes leaf1 {
   from {
   	left: 600px;
-  	top: 680px;
+  	top: 650px;
   }
   to {
   	left: 600px;
@@ -272,7 +302,7 @@ img.leaf5 {
 @keyframes leaf2 {
   from {
   	left: 580px;
-  	top: 670px;
+  	top: 640px;
   }
   to {
   	left: 560px;
@@ -283,7 +313,7 @@ img.leaf5 {
 @keyframes leaf3 {
   from {
   	left: 610px;
-  	top: 675px;
+  	top: 645px;
   }
   to {
   	left: 630px;
@@ -294,7 +324,7 @@ img.leaf5 {
 @keyframes leaf4 {
   from {
   	left: 600px;
-  	top: 675px;
+  	top: 645px;
   }
   to {
   	left: 570px;
@@ -305,10 +335,32 @@ img.leaf5 {
 @keyframes leaf5 {
   from {
   	left: 595px;
-  	top: 675px;
+  	top: 645px;
   }
   to {
   	left: 650px;
+	top: 1000px;
+}
+}
+
+@keyframes leaf6 {
+  from {
+  	left: 615px;
+  	top: 645px;
+  }
+  to {
+  	left: 590px;
+	top: 1000px;
+}
+}
+
+@keyframes leaf7 {
+  from {
+  	left: 605px;
+  	top: 645px;
+  }
+  to {
+  	left: 560px;
 	top: 1000px;
 }
 }
